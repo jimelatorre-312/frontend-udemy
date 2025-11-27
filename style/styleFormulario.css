@@ -31,9 +31,6 @@ body {
   flex-direction: column;
   gap: 24px;
 }
-.imgLogoKaggle {
-  width: 82px;
-}
 .tituloRegEmail {
   font-size: 28px;
   font-weight: 800;
@@ -150,22 +147,6 @@ body {
 .fullNameInput:hover {
   border: black solid 1px;
 }
-.capchaImg {
-  width: 100%;
-}
-.checkboxKaggleNew {
-  display: flex;
-  justify-content: center;
-}
-.checkboxTextContent {
-  margin: 0px;
-  margin-left: 7px;
-}
-.checkboxText {
-  margin: 0px;
-  font-size: 14px;
-  color: #3c4043;
-}
 .botonesBackNext {
   display: flex;
   justify-content: space-between;
@@ -215,10 +196,4 @@ body {
   color: #202124;
   font-size: 12px;
   margin-bottom: 30px;
-}
-.imgFinal {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  border-bottom-right-radius: 30px;
 }

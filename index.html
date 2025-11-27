@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Udemy</title>
+  </head>
+  <body>
+    <header
+      class="w-full h-[72px] bg-white px-[24px] flex justify-between items-center font-[Open Sans] text-[#2a2b3f] gap-4"
+    >
+      <img
+        src="./img/logo-udemy.svg"
+        alt="Logo Udemy"
+        class="h-[34px] w-[91px] flex-shrink-0"
+      />
+      <nav>
+        <button
+          class="px-[12px] my-[12px] text-[14px] hover:bg-[#EDE5F9] hover:rounded-[5px] hover:p-[10px] hover:text-[#892DE1] flex-shrink-0"
+        >
+          <span>Explorar</span>
+        </button>
+      </nav>
+      <div class="flex-1 max-w-2xl">
+        <form
+          action=""
+          class="flex items-center flex-direction-row border-solid border-[#595C73] border-[1px] mx-[12px] rounded-[25px]"
+        >
+          <button class="mx-[5px]">
+            <img
+              src="./img/icono-buscar.png"
+              class="w-[18px] h-[18px]"
+              alt=""
+            />
+          </button>
+          <input
+            type="text"
+            placeholder="Buscar cualquier cosa"
+            class="w-full bg-transparent font-[Open Sans] text-[#2A2B3F] text-[14px] px-3 py-3"
+          />
+        </form>
+      </div>
+      <div>
+        <a
+          href="#"
+          class="px-[12px] my-[12px] text-[14px] hover:bg-[#EDE5F9] hover:rounded-[5px] hover:p-[10px] hover:text-[#892DE1] flex-shrink-0"
+          ><span>Planes y precios</span></a
+        >
+      </div>
+      <div>
+        <a
+          href="#"
+          class="px-[12px] my-[12px] text-[14px] hover:bg-[#EDE5F9] hover:rounded-[5px] hover:p-[10px] hover:text-[#892DE1] flex-shrink-0"
+          ><span>Udemy Business</span></a
+        >
+      </div>
+      <div>
+        <a
+          href="#"
+          class="px-[12px] my-[12px] text-[14px] hover:bg-[#EDE5F9] hover:rounded-[5px] hover:p-[10px] hover:text-[#892DE1] flex-shrink-0"
+          ><span>Enseña en Udemy</span></a
+        >
+      </div>
+      <img src="./img/icono-carrito.png" alt="" class="w-[20px] h-[20px]" />
+
+      <a
+        href="#"
+        class="px-3 py-2 border border-[#6D28D5] rounded-md text-[#6D28D5] text-sm font-bold hover:bg-[#EDE5F9] flex-shrink-0"
+        >Iniciar sesión</a
+      >
+      <div
+        class="px-3 py-2 border border-[#6D28D5] rounded-md text-sm bg-[#6D28D5] hover:bg-[#892DE1] flex-shrink-0"
+      >
+        <a href="#" class="text-[#ffffff] text-[14px]"
+          ><span class="font-bold">Regístrate</span></a
+        >
+      </div>
+      <img src="./img/icono-idioma.png" class="w-[20px] h-[20px] flex-shrink-0" />
+    </header>
+
+    <div class="justify-center ml-[30px] mr-[30px]">
+      <div class="relative w-[100%] h-[auto] overflow-hidden">
+        <img
+          src="./img/cafd33d9-37a9-462f-a657-95fd72d52d1d.jpg"
+          alt="foto pag principal"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-white items-center justify-center w-[400px] h-[250px] p-[24px] mt-[50px] ml-[50px]"
+        >
+          <h1
+            class="text-2xl font-[DM_Serif_Display] text-[32px] text-[#2A2B3F]"
+          >
+            Aprendizaje inteligente
+          </h1>
+          <p class="text-[#595C73]">
+            Es el último día para ahorrar un 50 % en el primer año de una
+            suscripción anual para tu carrera profesional (en comparación con
+            los planes mensuales). Se aplican condiciones.
+          </p>
+          <div
+            class="px-3 py-2 border border-[#6D28D5] rounded-md text-sm bg-[#6D28D5] hover:bg-[#892DE1] w-[120px] mt-[15px]"
+          >
+            <a href="#" class="text-[#ffffff] text-[14px]"
+              ><span class="font-bold">Ahorar ahora</span></a
+            >
+          </div>
+        </div>
+        <h1
+          class="font-[DM_Serif_Display] text-[35px] text-[#2A2B3F] mt-[40px]"
+        >
+          ¿Todo listo para reimaginar tu carrera profesional?
+        </h1>
+        <p class="text-[#595C73] text-[17px] mb-[30px] font-normal">
+          Consigue las habilidades y la experiencia real que buscan los
+          empleadores con los aceleradores para carreras profesionales.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl w-full">
+        <div
+          class="bg-white rounded-xl overflow-hidden border-solid border-[#E9EAF2] border-[1px] p-[16px] rounded-[25px] hover:bg-[#F6F7F9]"
+        >
+          <div class="relative w-full h-48">
+            <img
+              src="./img/Captura de pantalla 2025-09-05 165328.png"
+              alt="Desarrollador full stack"
+              class="w-full h-full object-cover rounded-[10px]"
+            />
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800 mb-2">
+              Desarrollador full stack
+            </h3>
+            <div
+              class="flex items-center gap-2 text-sm text-gray-600 flex-wrap"
+            >
+              <span
+                class="flex items-center gap-1 border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+              >
+                ⭐ <span>4,7</span>
+              </span>
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >101K calificaciones</span
+              >
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >Horas totales: 181,1</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl overflow-hidden border-solid border-[#E9EAF2] border-[1px] p-[16px] rounded-[25px] hover:bg-[#F6F7F9]"
+        >
+          <div class="relative w-full h-48">
+            <img
+              src="./img/Captura de pantalla 2025-09-05 165502.png"
+              alt="Marketing digital"
+              class="w-full h-full object-cover rounded-[10px]"
+            />
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800 mb-2">
+              Profesional del marketing digital
+            </h3>
+            <div
+              class="flex items-center gap-2 text-sm text-gray-600 flex-wrap"
+            >
+              <span
+                class="flex items-center gap-1 border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+              >
+                ⭐ <span>4,5</span>
+              </span>
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >16K calificaciones</span
+              >
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >Horas totales: 51,7</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl overflow-hidden border-solid border-[#E9EAF2] border-[1px] p-[16px] rounded-[25px] hover:bg-[#F6F7F9]"
+        >
+          <div class="relative w-full h-48">
+            <img
+              src="./img/Captura de pantalla 2025-09-05 165624.png"
+              alt="Científico de datos"
+              class="w-full h-full object-cover rounded-[10px]"
+            />
+          </div>
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800 mb-2">
+              Científico de datos
+            </h3>
+            <div
+              class="flex items-center gap-2 text-sm text-gray-600 flex-wrap"
+            >
+              <span
+                class="flex items-center gap-1 border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+              >
+                ⭐ <span>4,7</span>
+              </span>
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >18K calificaciones</span
+              >
+              <span
+                class="border-solid border-[#E9EAF2] border-[1px] p-[2px] rounded-[5px]"
+                >Horas totales: 53,6</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-[30px]">
+        <a
+          href="#"
+          class="px-3 py-2 border border-[#6D28D5] rounded-md text-[#6D28D5] text-sm font-bold hover:bg-[#EDE5F9]"
+          >Todos los aceleradores para carreras profesionales</a
+        >
+      </div>
+      <h1
+        class="font-[DM_Serif_Display] font-[DM_Serif_Display] text-[35px] text-[#2A2B3F] mt-[40px]"
+      >
+        Todas las habilidades que necesitas en un único lugar
+      </h1>
+      <p class="text-[#595C73] text-[17px] mb-[30px]">
+        Desde habilidades esenciales hasta temas técnicos, Udemy respalda tu
+        desarrollo profesional.
+      </p>
+      <div class="flex gap-7 mb-[45px]">
+        <span class="text-md font-bold text-[800] text-[#595C73] hover:text-[#2A2B3F]">Ciencias de la Información</span>
+        <span class="text-md font-bold text-[800] text-[#595C73] hover:text-[#2A2B3F]">Certificaciones de informática</span>
+        <span class="text-md font-bold text-[800] text-[#595C73] hover:text-[#2A2B3F]">Liderazgo</span>
+        <span class="text-md font-bold text-[800] text-[#2A2B3F]">Desarrollo web</span>
+        <span class="text-md font-bold text-[800] text-[#595C73] hover:text-[#2A2B3F]">Comunicación</span>
+        <span class="text-md font-bold text-[800] text-[#595C73] hover:text-[#2A2B3F]">Analítica e inteligencia empresarial</span>
+      </div>
+      <div class="flex gap-2 mb-[45px]">
+        <span class="bg-[#33364A] text-[#FFFFFF] rounded-[60px] pt-[14px] px-[24px] pb-[10px]">
+          <h3 class="text-md font-bold text-[800] text-[16px] pb-[4px]">Desarrollo web</h3>
+          <p class="text-[12px]">Más de 14,4 millones de estudiantes</p>
+        </span>
+        <span class="bg-[#E9EAF2] rounded-[60px] pt-[14px] px-[24px] pb-[10px] hover:bg-[#D1D2E0]">
+          <h3 class="text-md font-bold text-[800] text-[16px] text-[#2A2B3F] pb-[4px]">JavaScript</h3>
+          <p class="text-[12px] text-[#595C73]">Más de 18,8 millones de estudiantes</p>
+        </span>
+         <span class="bg-[#E9EAF2] rounded-[60px] pt-[14px] px-[24px] pb-[10px] hover:bg-[#D1D2E0]">
+          <h3 class="text-md font-bold text-[800] text-[16px] text-[#2A2B3F] pb-[4px]">React JS</h3>
+          <p class="text-[12px] text-[#595C73]">Más de 8 millones de estudiantes</p>
+        </span>
+         <span class="bg-[#E9EAF2] rounded-[60px] pt-[14px] px-[24px] pb-[10px] hover:bg-[#D1D2E0]">
+          <h3 class="text-md font-bold text-[800] text-[16px] text-[#2A2B3F] pb-[4px]">Java</h3>
+          <p class="text-[12px] text-[#595C73]">Más de 16,6 millones de estudiantes</p>
+        </span>
+         <span class="bg-[#E9EAF2] rounded-[60px] pt-[14px] px-[24px] pb-[10px] hover:bg-[#D1D2E0]">
+          <h3 class="text-md font-bold text-[800] text-[16px] text-[#2A2B3F] pb-[4px]">CSS</h3>
+          <p class="text-[12px] text-[#595C73]">Más de 9 millones de estudiantes</p>
+        </span>
+      </div>
+
+      <div class="relative w-full">
+  <button 
+    onclick="scrollCarousel(-1)"
+    class="absolute left-2 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-100"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+  </button>
+
+      <div class="w-full overflow-x-auto">
+        <div
+        class=" gap-4 max-w-7xl w-full flex gap-4 snap-x snap-mandatory overflow-x-scroll scrollbar-hide px-2"
+        id="carousel">
+          <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso1-foto.jpg"
+            alt="Curso Python"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Juan Pablo De la Torre Valdez
+            </p>
+
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,7</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(58.647)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">69,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#C2E9EB] text-[#0D5261] text-xs font-bold px-3 py-1 rounded"
+            >
+              Lo más vendido
+          </span>
+        </div>
+    </div>
+    <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso2-foto.jpg"
+            alt="Curso Python"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Universidad JavaScript - De Cero a Experto JavaScript!
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Global Mentoring Ing. Ubaldo Acosta
+            </p>
+
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,7</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(58.647)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">69,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso3-foto.jpg"
+            alt="Curso 3"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              De Cero a Full Stack
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Adrian Lisciotti
+            </p>
+
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(652)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#C2E9EB] text-[#0D5261] text-xs font-bold px-3 py-1 rounded"
+            >
+              Lo más vendido
+          </span>
+        </div>
+    </div>
+    <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso4-foto.jpg"
+            alt="Curso 4"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Programación FullStack y Escritorio desde CERO a PROFESIONAL
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Vladimir Rodriguez
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,5</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(603)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso5-foto.jpg"
+            alt="Curso 4"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Desarrollo Web Desde Cero: HTML5, CSS3 y JavaScript
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Jorge Durand
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(1390)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">74,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso6-foto.jpg"
+            alt="Curso 6"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Curso de Programación y Desarrollo Web desde cero a Master
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Alex Roel ChB
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(1783)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">49,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso7-foto.jpg"
+            alt="Curso 7"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              The Complete Full-Stack Web Development Bootcamp
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Dr.Angela Yu, Developer and Lead...
+            </p>
+
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,7</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(451.869)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">69,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#C2E9EB] text-[#0D5261] text-xs font-bold px-3 py-1 rounded"
+            >
+              Lo más vendido
+          </span>
+        </div>
+    </div>
+    <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso8-foto.jpg"
+            alt="Curso 8"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              +100 Proyectos de Desarrollo Web con HTML, CSS y JavaScript
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Victor Robles
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(615)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso9-foto.jpg"
+            alt="Curso 9"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Programación con Claude la IA Generativa para Desarrollo Web
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Alvaro Chirou, Kevin Lopez
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,4</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(36)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">44,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso10-foto.jpg"
+            alt="Curso 10"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Curso de Desarrollo Web Completo 2.0
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Jose Luis Nuñez Montes
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,3</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(3329)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">74,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso11-foto.jpg"
+            alt="Curso 11"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Complete web development course
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Hitesh Choudhary
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(15.320)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso12-foto.jpg"
+            alt="Curso 12"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Fundamentos de Programación
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Jose Javier Villena
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,3</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(9534)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">54,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso13-foto.jpg"
+            alt="Curso 13"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Desarrollo web : HTML,CSS,Javascript,JQuery,Python y Django
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Redait Media
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,5</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(1393)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">64,99 US$</p>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso14-foto.jpg"
+            alt="Curso 14"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Python y Flask. Desarrollo web y APIS tipo REST con Flask
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Redait Media
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,4</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(331)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">64,99 US$</p>
+        </div>
+      </div>
+       <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso15-foto.jpg"
+            alt="Curso 15"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Desarrollo Web Responsivo: Proyectos Prácticos
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Render2web
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,7</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(187)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+        </div>
+      </div>
+<div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso16-foto.jpg"
+            alt="Curso 16"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              JavaScript Full- Curso desde Principiante hasta Profesional
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Grover Vasquez
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,5</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(2702)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">59,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso17-foto.jpg"
+            alt="Curso 17"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              The Web Developer Bootcamp 2025
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Colt Steele
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,6</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(282.941)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">69,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+      <div
+          class="bg-white rounded-lg transition overflow-hidden border-solid border-[#D1D2E0] border-[1px] rounded-[25px] min-w-[280px] max-w-[280px] snap-center"
+        >
+          <img
+            src="./img/curso18-foto.jpg"
+            alt="Curso 18"
+            class="w-full h-44 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-md font-bold text-gray-800">
+              Conviértete en un Desarrollador Web desde cero Paso a Paso
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Gilbert Rodriguez
+            </p>
+            <div class="flex items-center gap-1 mt-2 text-sm">
+              <span class="text-500 text-[#8B4309] font-bold">4,4</span>
+              <div class="flex text-400 text-[#C4710D]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-3 h-3 fill-current text-gray-300"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.401 8.175L12 18.896l-7.335 3.869 1.401-8.175L.132 9.208l8.2-1.192z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 text-[12px]">(2303)</span>
+            </div>
+              <p class="text-lg font-bold mt-2 text-[15px] text-gray-800">69,99 US$</p>
+            <span
+              class="inline-block mt-2 bg-100 bg-[#5022C3] text-[#ffffff] font-bold text-xs px-3 py-1 rounded"
+            >
+              Premium
+          </span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+        <button onclick="scrollCarousel(1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center z-10 hover:bg-gray-100"
+  >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
+
+      
+      <div class="mt-[30px] mb-[30px] mt-[55px]">
+        <a
+          href="#"
+          class="px-3 py-2 border border-[#6D28D5] rounded-md text-[#6D28D5] text-sm font-bold hover:bg-[#EDE5F9]"
+          >Mostrar todos los cursos de Ciencias de la Información</a
+        >
+      </div>
+    </div>
+
+    <script>
+  function scrollCarousel(direction) {
+    const carousel = document.getElementById("carousel");
+    const cardWidth = carousel.querySelector("div").offsetWidth + 16; // ancho tarjeta + gap (16px)
+    carousel.scrollBy({
+      left: direction * cardWidth,
+      behavior: "smooth",
+    });
+  }
+</script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/styleFormulario.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="contentFormRegEmail">
+      <div class="contentGeneralRegEmail">
+        <h1 class="tituloRegEmail">Register</h1>
+      </div>
+      <form action="submit" id="formulario">
+        <div class="contentFormulario">
+          <div class="emailContent">
+            <label for="email" class="Label">email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+              class="emailInput"
+            />
+          </div>
+          <div class="passwordContent">
+            <label for="password" class="Label">password</label>
+            <label for="password" class="iconoVision"
+              ><img
+                src="../img/vision.png"
+                alt="Logo de vision"
+                class="imgVision"
+            /></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter password"
+              class="passwordInput"
+            />
+            <p class="textPasswordName">Minimum of 7 characters</p>
+          </div>
+          <div class="passwordContent">
+            <label for="passwordVerficar" class="Label">password</label>
+            <label for="passwordVerificar" class="iconoVision"
+              ><img
+                src="../img/vision.png"
+                alt="Logo de vision"
+                class="imgVision"
+            /></label>
+            <input
+              type="password"
+              name="passwordVerificar"
+              id="passwordVerificar"
+              placeholder="Enter password"
+              class="passwordInput"
+            />
+          </div>
+          <div class="fullNameContent">
+            <label for="fullName" class="Label">full name</label>
+            <input
+              type="text"
+              name="fullName"
+              id="name"
+              placeholder="Enter your full name"
+              class="fullNameInput"
+            />
+          </div>
+          <div class="botonesBackNext">
+            <button class="botonBack">
+              <img
+                src="../img/flecha_icono.png"
+                alt="imagen flecha"
+                class="imgIconoFlecha"
+              />
+              <a href="../index.html" class="linkBack">Back</a>
+            </button>
+            <button class="botonNext">
+              <a href="#" class="linkNext">Next
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <a href="https://www.kaggle.com/contact" class="supportLink"
+      >Contact Us / Support</a
+    >
+    <script src=" https://unpkg.com/validator@latest/validator.min.js "></script>
+    <script src="../js/mainFormulario.js"></script>
+  </body>
+</html>

@@ -1,0 +1,224 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentFormRegEmail {
+  background-color: white;
+  width: 385px;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: #892DE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 50px;
+  gap: 16px;
+  padding-top: 40px;
+  position: relative;
+}
+.contentGeneralRegEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.imgLogoKaggle {
+  width: 82px;
+}
+.tituloRegEmail {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #892DE1;
+}
+.contentFormulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  gap: 28px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.emailContent {
+  position: relative;
+  width: 100%;
+}
+.emailInput {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid;
+  border-color: rgb(218, 220, 224);
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  align-items: center;
+  z-index: 0;
+}
+.emailInput:hover {
+  border: black solid 1px;
+}
+.Label {
+  color: #5f6368;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  background-color: #ffffff;
+  top: -10px;
+  left: 17px;
+  margin-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 1;
+}
+.Label:hover {
+  color: #3f3f42;
+}
+.passwordContent {
+  position: relative;
+  width: 100%;
+}
+.passwordInput {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid;
+  border-color: rgb(218, 220, 224);
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  align-items: center;
+  z-index: 0;
+}
+.passwordInput:hover {
+  border: black solid 1px;
+}
+.iconoVision {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  z-index: 1;
+}
+.imgVision {
+  width: 32px;
+  height: 25px;
+  margin: 0px;
+}
+.textPasswordName {
+  color: rgb(95, 99, 104);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+.fullNameContent {
+  position: relative;
+  width: 100%;
+}
+.fullNameInput {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid;
+  border-color: rgb(218, 220, 224);
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  align-items: center;
+  z-index: 0;
+}
+.fullNameInput:hover {
+  border: black solid 1px;
+}
+.capchaImg {
+  width: 100%;
+}
+.checkboxKaggleNew {
+  display: flex;
+  justify-content: center;
+}
+.checkboxTextContent {
+  margin: 0px;
+  margin-left: 7px;
+}
+.checkboxText {
+  margin: 0px;
+  font-size: 14px;
+  color: #3c4043;
+}
+.botonesBackNext {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  margin-bottom: 40px;
+}
+.botonBack {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  height: 36px;
+  width: 80px;
+  cursor: pointer;
+}
+.linkBack {
+  text-decoration: none;
+  font-size: 14px;
+  color: #892DE1;
+  font-weight: 600;
+}
+.botonNext {
+  background-color: #892DE1;
+  border: 1px solid #892DE1;
+  border-radius: 20px;
+  height: 36px;
+  width: 80px;
+  margin-left: 120px;
+  cursor: pointer;
+  z-index: 2000;
+}
+.linkNext {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.imgIconoFlecha {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  padding: 0px;
+  left: 5px;
+  top: 10px;
+}
+.supportLink {
+  text-align: center;
+  color: #202124;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.imgFinal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-bottom-right-radius: 30px;
+}
